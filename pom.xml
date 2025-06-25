@@ -90,7 +90,7 @@
 							<configuration>
 								<image>
 									<name>${env.IMAGE}</name>
-									<builder>paketobuildpacks/builder-jammy-base:latest</builder>									
+									<builder>paketobuildpacks/builder-jammy-base:0.4.428</builder>									
 								</image>
 								<goal>build-image</goal>
 							</configuration>
